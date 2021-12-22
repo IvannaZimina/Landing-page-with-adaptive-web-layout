@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&family=Ubuntu:wght@300;400;500&display=swap');
+/* font-family: 'Ubuntu', sans-serif;
+font-family: 'Ubuntu Condensed', sans-serif; */
+
+::before::after {
+    box-sizing: border-box;
+}
+.mainPage {
+    width: 100%;
+    margin: 0 auto;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+p {
+    margin: 0;
+}
+.head {
+    height: 174px;
+}
+.nameSite {
+    display: flex;
+}
+.logoSite {
+    width: 8%;
+    margin: 8px 19px 7px 31px;
+}
+.logoSite img {
+    width: 95px;
+}
+.nameSiteRegion {
+    width: 92%;
+}
+.title{
+    margin: 40px 0 0 1px;
+}
+.mainTitle {
+    display: flex;
+    align-items: start;
+    margin-bottom: 9px;
+}
+.portal {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1em;
+    letter-spacing: -1px;
+}
+.region {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.1em;
+    margin-top: -5px;
+    line-height: 1.1em;
+    letter-spacing: -1px;
+}
+.undertitle {
+    display: flex;
+}
+.taken {
+    width: 88%;
+    font-size: 0.9em;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding-left: 1px;
+}
+.language {
+    width: 12%;
+    display: flex;
+    line-height: 0.8em;
+}
+.language img {
+    width: 12px;
+    margin-right: 5px;
+}
+.chooselanguage {
+    display: flex;
+    padding-left: 0;
+    margin: 0;
+}
+.chooselanguage a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9em;
+    font-family: 'Roboto', sans-serif;
+}
+.chooselanguage li{
+    list-style-type: none;
+}
+.navigation {
+    background: linear-gradient(0deg, rgba(85,130,186,1) 0%, rgba(63,102,156,1) 20%, rgba(50,86,138,1) 50%, rgba(33,64,113,1) 75%, rgba(17,45,91,1) 100%);
+    border-top: 1px solid #2670bf;
+    border-bottom: 1px solid #6f6f6f;
+    height: 36px;
+}
+.navText {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 95%;
+    padding-left: 0;
+}
+.navText li{
+    list-style-type: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.9em;
+    padding: 10px 10px 0 10px;
+    border-left: 1px solid #63789a;
+}
+.navText img {
+    width: 17px;
+}
+.centralContainer {
+    width: 95%;
+    margin: 0 auto;
+}
+.newsWeek {
+    display: flex;
+    height: 307px;
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+.pictureNews {
+    display: flex;
+    width: 75%;
+}
+.listNews {
+    width: 23%;
+    margin-left: 25px;
+}
+.textMainNews {
+    background: #033d5e;
+    padding: 18px 0 0 19px;
+    width: 33%;
+}
+.picturesMainNews {
+    width: 67%;
+}
+.textMainNews p {
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.titleNews {
+    font-size: 1.5em;
+    line-height: 1.3em;
+    padding-bottom: 15px;
+    width: 85%;
+}
+.describeNews {
+    font-size: 0.8em;
+    line-height: 1.7em;
+    margin-bottom: 30px;
+    width: 85%;
+}
+.details a {
+    color:  #e7d21d;
+    font-size: 0.8em;
+}
+.picturesMainNews {
+    background-image: url(img/railway_4280x3240.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.listNews{
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.titleListNews {
+    font-size: 1.7em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 17px;
+}
+.titleListNews p {
+    line-height: 0.8em;
+    letter-spacing: 1px;
+}
+.listListNews {
+    background-color: #cecece;
+    padding: 15px 0 0 10px;
+}
+.newsListBlock {
+    padding: 0 0 12px 0;
+}
+.Date {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.shotNews {
+    padding-bottom: 10px;
+}
+.informClick {
+    margin-bottom: 17px;
+}
+.blockClicks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.greyButton {
+    height: 71px;
+    display: flex;
+    margin-bottom: 30px;
+    background: #cecece;
+    width: 31.5%;
+}
+.singleClick{
+    width: 18%;
+}
+.singleClick > .herb {
+    width: 25px;
+    padding: 18px 0 0 23px;
+}
+.singleClick img {
+    width: 33px;
+    border: 0;
+    padding: 20px 0 0 17px;
+}
+.nameOfClick {
+    padding-top: 22px;
+}
+.nameOfClick a {
+    text-decoration: none;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #000000;
+}
+.photoVideo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 76px;
+}
+.bigSectionNews{
+    width: 74.5%;
+}
+.lastProject {
+    border-bottom: 1px solid #cecece;
+    padding-bottom: 35px;
+}
+.titleBlocskNews {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #666666;
+    font-size: 1.8em;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #cecece;
+    margin-bottom: 22px;
+}
+.photoProjectNews {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.newsGroup {
+    width: 31.5%;
+}
+.photoGroup img {
+    width: 103%;
+    margin-bottom: 15px;
+}
+.titleTextNews {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+.dateNews {
+    font-family: Arial, sans-serif;
+    color:  grey;
+    font-size: 0.9em;
+    margin-bottom: 18px;
+}
+.decriptionNews p {
+    font-family: Arial, sans-serif;
+    line-height: 1.6em;
+    overflow: hidden;
+    font-size: 0.85em;
+}
+.lookAllProject {
+    font-size: 0.8em;
+    color: #205391;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.videoText {
+    margin-bottom: 50px;
+}
+.SmallSectionNews {
+    width: 23%;
+}
+.decriptionVideo {
+    margin-bottom: 20px;
+}
+.decriptionVideo p {
+    font-family: Arial, sans-serif;
+    line-height: 1.6em;
+    overflow: hidden;
+    font-size: 0.85em;
+}
+.blockForMarketing {
+    background: #ebebec;
+    color: grey;
+    height: 296px;
+}
+.textMarket {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 53px;
+}
+.textMarket p {
+    color: grey;
+}
+.titleMarketBlock {
+    font-size: 1.7em;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 55px;
+}
+.descriptionMarketBlock {
+    line-height: 1.7em;
+    font-size: 0.8em;
+    text-align: center;
+}
+.notesDownOne {
+    display: flex;
+    padding-top: 56px;
+    justify-content: space-between;
+}
+.notesDownTwo {
+    display: none;
+}
+.noteBlock {
+    display: flex;
+    justify-content: space-between;
+    width: 48%;
+    border: 2px solid #cecece;
+    height: 140px;
+}
+.logoSmall img {
+    width: 41px;
+    padding: 13px 8px 0 15px;
+}
+.fbColor img{
+    width: 28px;
+    padding: 23px 12px 0 25px;
+}
+.textPartNote {
+    padding: 25px 0;
+}
+.titleNote {
+    font-size: 1.2em;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 7px;
+}
+.decribeNote {
+    line-height: 1.7em;
+    font-size: 0.8em;
+    width: 85%;
+}
+.footerDown {
+    height: 60px;
+    background-color: #cecece;
+    border-top: 1px solid #999999;
+}
+.footerCentralLine {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.lisense {
+    width: 15%;
+}
+.lisense p {
+    color: #ffffff;
+    font-size: 0.7em;
+    padding: 22px 0;
+}
+.fotterIconsSocial {
+    display: flex;
+    justify-content: space-between;
+    width: 9%;
+}
+.fotterIconsSocial img {
+    width: 30px;
+    padding-right: 5px;
+    padding: 13px 0;
+}
+.fotterIconsSocial a {
+    text-decoration: none;    
+}
+
+
+
+
+
+
+@media screen and (max-width: 780px){
+    .head {
+        height: 209px;
+    }
+    .logoSite {
+        width: 12%;
+        margin: 8px 19px 9px 31px;
+    }
+    .nameSiteRegion {
+        width: 88%;
+    }
+    .title {
+        margin: 15px 0 0 0;
+    }
+    .portal {
+        padding-left: 12px;
+    }
+    .mainTitle {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 7px;
+    }
+    .region {
+        font-size: 3em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .taken {
+        width: 80%;
+    }
+    .language {
+        width: 20%;
+    }
+    .navigation {
+        height: 70px;
+    }
+    .navText {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .navText li {
+        padding: 10px 10px 0 10px;
+    }
+    .centralContainer {
+        width: 92%;
+    }
+    .newsWeek {
+        height: 490px;
+        flex-wrap: wrap;
+        margin-bottom: 85px;
+    }
+    .pictureNews {
+        width: 100%;
+    }
+    .listNews {
+        width: 100%;
+        margin-top: 41px;
+        margin-left: -2px;
+        padding-bottom: 54px;
+        border-bottom: 1px solid #cecece;
+    }
+    .textMainNews {
+        padding: 18px 0 27px 15px;
+        width: 39%;
+    }
+    .picturesMainNews {
+        width: 61%;
+    }
+    .describeNews {
+        margin-bottom: 30px;
+        padding-right: 30px;
+    }
+    .titleListNews {
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+    }
+    .listListNews {
+        display: flex;
+        justify-content: space-between;
+    }
+    .newsListBlock {
+        width: 31%;
+        padding: 0 0 4px 0;
+    }
+    .greyButton {
+        width: 48%;
+        margin-bottom: 42px;
+    }
+    .photoVideo {
+        flex-wrap: wrap;
+        margin-top: -20px;
+    }
+    .bigSectionNews{
+        width: 99%;
+    }
+    .photoGroup img {
+        margin-bottom: 5px;
+    }
+    .titleTextNews {
+        font-size: 1.2em;
+        margin-bottom: 15px;
+        letter-spacing: 1px;
+    }
+    .photoProjectNews {
+        padding-bottom: 25px;
+    }
+    .notesDownOne {
+        display: none;
+    }
+    .notesDownTwo {
+        display: flex;
+        padding-top: 56px;
+        justify-content: space-between;
+    }
+    .SmallSectionNews {
+        width: 99%;
+    }
+    .videoSession {
+        display: flex;
+        justify-content: space-between;
+    }
+    .videoText {
+        width: 47%;
+    }
+    .videoPhotoGroup img {
+        width: 350px;
+        height: 170px;
+    }
+    .blockForMarketing {
+        width: 48%;
+    }
+    .noteBlock {
+        height: 182px;
+    }
+    .lisense {
+        width: 25%;
+    }
+    .fotterIconsSocial {
+        width: 15%;
+    }
+}
