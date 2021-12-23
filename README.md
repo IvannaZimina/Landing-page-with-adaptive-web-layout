@@ -1,7 +1,7 @@
 ## Task
 Create landing-page (web layout only) with extensions 1200px and 780px (adaptive style).
 
-##Stack
+## Stack
 HTML, CSS (stretching style), Pixel perfect.
 
 ## Description
