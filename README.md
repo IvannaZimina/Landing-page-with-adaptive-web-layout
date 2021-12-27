@@ -1,11 +1,11 @@
 ## Task
-Create landing-page (web layout only) with extensions 1200px and 780px (adaptive style).
+Create a landing-page (web layout only) with extensions 1200px and 780px (adaptive style).
 
 ## Stack
 HTML, CSS (stretching style), Pixel perfect.
 
 ## Description
-practice coding in HTML and using different styles. Using Pixel perfect plugin in browser to match the origin design.
+There was practiced coding in HTML and using different styles and Pixel perfect plugin in browser to match the original design.
 
 ## Environment
 Clone project to your machine. Use LiveServer plugin in VS code to run web-app.
